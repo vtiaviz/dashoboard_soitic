@@ -15,6 +15,7 @@ Route::group(['middleware' => ['get.menu']], function () {
     Route::get('/', function () {           return view('auth.login'); });
 
     Route::group(['middleware' => ['role:user']], function () {
+        Route::get('/home', function () {     return view('home'); });
         Route::get('/colors', function () {     return view('dashboard.colors'); });
         Route::get('/typography', function () { return view('dashboard.typography'); });
         Route::get('/charts', function () {     return view('dashboard.charts'); });

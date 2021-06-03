@@ -59,11 +59,12 @@
                 </svg> Lock Account</a><a class="dropdown-item" href="#">
                 <svg class="c-icon mr-2">
                   <use xlink:href="{{ url('/icons/sprites/free.svg#cil-account-logout') }}"></use>
-                </svg><form action="{{ url('/logout') }}" method="POST"> @csrf <button type="submit" class="btn btn-ghost-dark btn-block">Logout</button></form></a>
+                </svg>
+                <form action="{{ url('/logout') }}" method="POST"> @csrf <button type="submit" class="btn btn-ghost-dark btn-block">Logout</button></form></a>
             </div>
           </li>
         </ul>
-        <div class="c-subheader px-3">
+        <!-- <div class="c-subheader px-3">
           <ol class="breadcrumb border-0 m-0">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <?php $segments = ''; ?>
@@ -76,5 +77,5 @@
                 @endif
             @endfor
           </ol>
-        </div>
+        </div> -->
     </header>
