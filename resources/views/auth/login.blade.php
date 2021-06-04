@@ -65,7 +65,7 @@
     </div>
     <footer class="footer">
         <div id="logo_footer"></div>
-        <p class="copyright">Copyright © 2021 | SOITech - Soluções inteligentes em Tecnologia</p>
+        <p class="copyright">Copyright © 2021 | SOITech - Soluções Inteligentes em Tecnologia</p>
     </footer>
     <script src="{{ url('src/js/jquery.min.js') }}"></script>
     <script src="{{ url('src/bootstrap/js/bootstrap.min.js') }}"></script>
