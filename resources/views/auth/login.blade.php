@@ -20,7 +20,7 @@
                 <form name="login" action="{{ route('login') }}" method="post" autocomplete="off" >
                     @csrf
                     <div class="form-group" id="position">
-                        <input class="form-control" type="text" id="user" name="name" placeholder="Nome do usuário" />
+                        <input class="form-control" type="email" id="user" name="email" placeholder="Email do usuário" />
                     @error('email')
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <strong>{{ $message }}</strong>
