@@ -1,3 +1,19 @@
+::placeholder {
+  color: white;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
 .footer {
   color: #4b4c4d;
   background: rgba(255,255,255,0);
@@ -102,6 +118,29 @@
   font-size: 30px;
   padding-bottom: 19px;
 }
+
+#email {
+  font-size: 34px;
+  margin-bottom: 30px;
+  width: 260px;
+  border-bottom: 8px solid var(--cyan) ;
+  padding-bottom: 9px;
+  color: rgba(255,255,255,0.78);
+  font-size: 30px;
+  padding-bottom: 19px;
+}
+
+#reset {
+  font-size: 34px;
+  margin-bottom: 30px;
+  width: 320px;
+  border-bottom: 8px solid var(--cyan) ;
+  padding-bottom: 9px;
+  color: rgba(255,255,255,0.78);
+  font-size: 30px;
+  padding-bottom: 19px;
+}
+
 
 /* xs - < 575px */
 

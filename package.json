@@ -78,6 +78,7 @@
     "@popperjs/core": "^2.4.0",
     "axios": "^0.21.1",
     "chart.js": "^2.9.3",
+    "coreui": "^0.4.2-alpha2",
     "cropperjs": "^1.5.7",
     "flag-icon-css": "^3.5.0",
     "laravel-mix": "^5.0.4",
