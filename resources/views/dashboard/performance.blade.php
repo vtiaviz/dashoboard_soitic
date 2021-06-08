@@ -17,7 +17,7 @@
             <div class="card">
               <div class="card-header text-dark bg-light" style="font-size: 20px;"><i class="cil-calculator"> </i><strong> Sua Pontuação</strong></div>
               <div class="card-body">
-                <table class="table table-responsive-sm text-muted table-striped">
+                <table class="table table-bordered -sm text-muted table-striped">
                   <thead>
                     <tr>
                       <th>Resultados</th>
@@ -46,7 +46,7 @@
           <div class="card">
             <div class="card-header text-dark bg-light" style="font-size: 20px;"><i class="cil-sort-ascending"></i><strong> Melhores Resultados</strong></div>
             <div class="card-body">
-              <table class="table table-responsive-sm text-muted table-striped">
+              <table class="table table-bordered -sm text-muted table-striped">
                 <thead>
                   <tr>
                     <th>Nome</th>

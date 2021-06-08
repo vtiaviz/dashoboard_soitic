@@ -18,6 +18,7 @@ Route::group(['middleware' => ['get.menu']], function () {
         Route::get('/home', function () {     return view('home'); });
         Route::get('/atitude/home', function () {     return view('dashboard.attitude'); });
         Route::get('/atitude/desempenho', function () {     return view('dashboard.performance'); });
+        Route::get('/atitude/historico', function () {     return view('dashboard.timeline'); });
         Route::get('/colors', function () {     return view('dashboard.colors'); });
         Route::get('/typography', function () { return view('dashboard.typography'); });
         Route::get('/charts', function () {     return view('dashboard.charts'); });

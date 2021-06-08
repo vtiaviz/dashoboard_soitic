@@ -217,7 +217,7 @@
         </div>
         <div class="form-group">
           <label for="hora">Hora de Entrega</label>
-          <input type="text" class="form-control" id="hora" placeholder="00:00h">
+          <input type="time" class="form-control" id="hora" placeholder="00:00h">
         </div>
         <div class="form-group">
           <label for="executante">Executante</label>
